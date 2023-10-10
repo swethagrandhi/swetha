@@ -1,0 +1,9 @@
+p=int(input("enter principle amount"))
+t=int(input("enter time"))
+r=int(input("enter rate of interest"))
+si=p*t*r/100;
+print(si)
+a=int(input("enter amount"))
+m=int(input("enter number of months"))
+emi=si+p-a/m;
+print(emi)
