@@ -1,0 +1,3 @@
+h=int(input("enter hours"))
+mins=h*60;
+print(mins)
