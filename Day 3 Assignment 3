@@ -1,0 +1,10 @@
+sno=int(input("enter sno"))
+sname=input("enter sname")
+sgroup=input("enter group")
+s1=int(input("enter marks of s1"))
+s2=int(input("enter marks of s2"))
+s3=int(input("enter marks of s3"))
+tot=s1+s2+s3;
+print(tot)
+avg=s1+s2+s3/3;
+print(avg)
